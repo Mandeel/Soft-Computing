@@ -94,12 +94,12 @@ def main(data):
 
         # Increment the epoch number
         epochs += 1
-        
+    
+    print("\n" + p.recall([0.8156861440000001, 0.0, 0.192156832]))  
     print("\n" + p.recall([0,0,0.994]))
 
         
     return p
-
 data = [#((R,G,B), CLASSIFICATION)
         [[0,0,255], BLUE],
         [[0, 0, 255], BLUE],
