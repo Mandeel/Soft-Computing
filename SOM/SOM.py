@@ -8,6 +8,7 @@ Created on Mon Dec 30 18:03:22 2019
 from mvpa2.suite import *
 
 # http://www.pymvpa.org/examples/som.html
+# http://www.pymvpa.org/generated/mvpa2.mappers.som.SimpleSOMMapper.html
 
 colors = np.array(
          [[0., 0., 0.],
